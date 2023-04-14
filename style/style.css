@@ -153,11 +153,23 @@ footer{
 
 }
 
-@media (max-width: 1200px){/*muda so se a tela for menor que 10000px*/
-.apresentacao{
-    
-    flex-direction: column-reverse;/* coluna, inverte a ordem dos elementos */
+@media (max-width: 1200px) {
+
+.cabecalho{
+    padding: 10%;
+
 }
+.cabecalho__menu{
+    justify-content: center;
+}
+.apresentacao{
+    width: auto;
+    flex-direction: column-reverse;/* coluna e ordem dos elementos*/
+}
+img{
+    width: 90%;
+    
+} 
 }
 /* valor do pixel dividido por 16 da o valoe em rem (munda o temanho deacordo com a comfiguraçao do computador)*/
 /* midea , se a tela for de tantos pixels muda*/
