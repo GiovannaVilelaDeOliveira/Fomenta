@@ -48,6 +48,7 @@ span{
 }
 .cabecalho__menu__links:hover{
     font-size: 1.6rem;
+    color: #f3f3f3;
 }
 .classeDestaqueTitulo{
     color:var(--cor-terciaria);
