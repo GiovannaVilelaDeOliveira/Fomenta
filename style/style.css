@@ -110,13 +110,15 @@ span{
 .apresentacao__links__links:hover{/* tudo que estiver dentro é estilizado quando o mouse passar por cima*/
     background-color: #0c4b43;
     border: 3px solid  #ed9909;
-    
+  
 
 }
 img{
     width: 60%;
     height: 50%;
     border-radius: 16px;
+    
+
 }
 h2{
     color: var(--cor-secundaria);
@@ -135,7 +137,7 @@ h2{
     content: url('https://api.iconify.design/ion/logo-youtube.svg?color=white&width=40&height=40');
 }
 .icone3{
-    content: url('https://api.iconify.design/ph/spotify-logo-fill.svg?color=white&width=40&height=40');;
+    content: url('https://api.iconify.design/ph/spotify-logo-fill.svg?color=white&width=40&height=40');
 }
 footer{
     
@@ -169,8 +171,8 @@ footer{
 }
 img{
     width: 90%;
-    
+    /* colocar dentro da div */
 } 
 }
 /* valor do pixel dividido por 16 da o valoe em rem (munda o temanho deacordo com a comfiguraçao do computador)*/
-/* midea , se a tela for de tantos pixels muda*/
+/* midea , se a tela for de tantos pixels muda */

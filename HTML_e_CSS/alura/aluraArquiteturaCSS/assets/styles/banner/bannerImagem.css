@@ -1,0 +1,18 @@
+.bannerImagem{
+    background: url('../../img/Photo\ by\ Annie\ Spratt\ on\ Unsplash.png') no-repeat center / cover;
+  
+    width: 100%;
+
+}
+@media screen and (min-width: 0){
+    .bannerImagem{
+        height: calc(100vh - 51px);
+        }
+    
+}
+@media screen and (min-width: 0){
+    .bannerImagem{
+        height: calc(100vh - 72px);
+        }
+    
+}

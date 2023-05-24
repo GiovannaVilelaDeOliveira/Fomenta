@@ -1,0 +1,143 @@
+@media  (min-width: 1700px) {
+    .headerLogo{
+        gap: 10px;
+    }
+    
+    .imgLogo{
+        width: 40px;
+        height:40px;
+    }
+    .headerTitle{
+        font-size: 36px;
+    }
+    
+
+    .TextIcone{
+        display: block;
+        font-size: 20px;
+        color: #474646;
+        font-family: var(--fontprimary);
+        text-transform: uppercase;
+        
+    }
+    .TextIcone:hover{
+        color: blue;
+    }
+    .iconeContent{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        gap: 10px;
+    }
+    .iconeHeart2{
+        content: url('https://api.iconify.design/mdi/cards-heart-outline.svg?color=black&width=45&height=42');
+    }
+    .iconeBag{
+        content: url('https://api.iconify.design/material-symbols/shopping-bag-outline.svg?color=black&width=40&height=45');
+    }
+    .iconeUser{
+        content: url('https://api.iconify.design/mdi/user-circle-outline.svg?color=black&width=42&height=42');
+    
+    }
+    .headerMenu{
+        gap: 50px;
+        padding: 1em 2em;
+        
+    }
+    .headerTable{
+        margin-right: auto;
+        font-size: 20px;
+        gap: 30px;
+        
+    }
+    
+    
+    .listMenu{
+        width: 11vw;/* 60vw 60% da tela*/
+    }
+    
+    .itemListMenu{
+        
+        padding: 1.2rem;
+        
+    }
+    .linkListMenu{
+        
+        font-size: 20px;
+    
+    
+    }
+
+    .search{
+        padding: 6em 0em;
+    }
+    .searchContent{
+        gap: 25px;
+    }
+    .titleSearch{
+        font-size: 40px;
+    }
+    .paragraphSearch{
+        font-size: 20px;
+    }
+    .boxSearch{
+        padding: 1em;
+        width: 25%;
+    }
+    
+    .boxSearch::placeholder{
+        font-size: 16px;
+    }
+
+   .possibleInterestContent{
+    width: 30%;
+   }
+   .imgPossibleInterest{
+    width: 300px;
+    height: 300px;
+   }
+   .titlePossibleInterest{
+    font-size: 30px;
+   }
+   .titleBookPossibleInterest{
+    font-size: 25px;
+   }
+   .paragraphPossibleInterest{
+    font-size: 20px;
+   }
+   .topics{
+    padding: 1em 2em;
+   }
+   .btnTopicsRecentely{
+    gap:100px 50px;
+   }
+   .topicsRecentely{
+    gap:80px;
+   }
+   .titleRegister{
+    font-size: 36px;
+   }
+   .paragraphRegister{
+    font-size: 20px;
+   }
+   .boxRegister{
+    width: 30%;
+   }
+   .titleListFooter{
+    color: #858585;
+    font-size: 30px;
+    }
+
+    .linkFooter{
+        color: #474646;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    .titleLastReleases{
+        font-size: 40px;
+    }
+    .swiper{
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,347 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+:root{
+    --colorBottom:#EBECEE;
+    --textColor:#fff;
+    --colorTitle:#EB9B00;
+    --fontprimary:'Poppins', sans-serif;
+    
+
+}
+
+
+body{
+    background-color: var(--colorBottom);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 15px 0px;
+    background-color: #FFFF;
+    position: relative;/*libera mudar posição*/
+}
+.headerMenu{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.listMenu{
+    display: none;
+    position: absolute;/*movimenta relativo ao pai no caso header*/
+    top: 100%;
+    width: 60vw;/* 60vw 60% da tela*/
+}
+.checkboxMenu:checked ~.listMenu{
+    display: block;
+}
+.checkboxMenu{
+    display: none;
+}
+.titleListMenu{
+    padding: 1rem;
+    background-color: #FFFF;
+    color: var(--colorTitle);
+    font-family: var(--fontprimary);
+    font-size: 16px;
+    font-weight: 700;
+}
+.itemListMenu{
+    padding: 1rem;
+    background-color: #FFFF;
+}
+.linkListMenu{
+    color: #0960a3;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: var(--fontprimary);
+
+
+}
+
+
+
+
+
+
+
+
+
+.iconeMenu{
+    content: url('https://api.iconify.design/material-symbols/menu.svg?color=black&width=40&height=30');
+}
+.imgLogo{
+    width: 30px;
+    height: 30px;
+}
+.headerTitle{
+    display: none;
+}
+.iconeHeart{
+    content: url('https://api.iconify.design/mdi/cards-heart-outline.svg?color=black&width=35&height=32');
+}
+.iconeBag{
+    content: url('https://api.iconify.design/material-symbols/shopping-bag-outline.svg?color=black&width=30&height=35');
+}
+.iconeUser{
+    content: url('https://api.iconify.design/mdi/user-circle-outline.svg?color=black&width=32&height=32');
+
+}
+.iconeMenu:hover{
+    content: url('https://api.iconify.design/material-symbols/menu.svg?color=blue&width=40&height=30');
+}
+
+.iconeHeart:hover{
+    content: url('https://api.iconify.design/mdi/cards-heart-outline.svg?color=blue&width=35&height=32');
+}
+.iconeBag:hover{
+    content: url('https://api.iconify.design/material-symbols/shopping-bag-outline.svg?color=blue&width=30&height=35');
+}
+.iconeUser:hover{
+    content: url('https://api.iconify.design/mdi/user-circle-outline.svg?color=blue&width=32&height=32');
+
+}
+.headerTable{
+    display: none;
+}
+.TextIcone{
+    display: none;
+}
+
+
+
+
+.search{
+    background-color: #0960a3;
+    color: var(--textColor);
+    padding: 2.5em 2em;
+    font-family: var(--fontprimary);
+
+}
+.searchContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+}
+.titleSearch{
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.paragraphSearch{
+    font-weight: 400;
+    
+
+}
+.boxSearch{
+    border: 1px solid  var(--textColor);
+    border-radius: 24px;
+    background-color: transparent;
+   
+    padding: 1em;
+    width: 100%;
+
+}
+
+.boxSearch::placeholder{
+    font-family: var(--fontprimary);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--textColor);
+    /*background: url("../img/Vector.png") no-repeat;  colocar no midea*/
+    background-position: 1em;
+
+}
+
+
+.lastReleases{
+   
+    background-color: var(--colorBottom);
+    text-align: center;
+    
+    padding: 0em 0em 0.5em 0em ;
+    
+    
+}
+.titleLastReleases{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--fontprimary);
+    color: var(--colorTitle);
+    padding: 1em;
+    background-color: var(--textColor);
+}
+.titleswiperDesktop{
+    display: none;
+}
+.swiper-slide img{
+    width: 100%;
+    padding: 2em;
+    
+}
+
+.swiper-button-prev{
+    display: none;
+}
+.swiper-button-next{
+    display: none;
+}
+.swiper-pagination{
+    position: fixed;
+    margin: 54% 0%;
+    
+}
+
+.possibleInterest{
+    background-color: var(--colorBottom);
+}
+.possibleInterestContent{
+    display: flex;
+    gap: 10px;
+    background-color: var(--textColor);
+    margin: 15px;
+    border-radius: 10px;
+}
+.textPossibleInterest{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontprimary);
+    margin: 10px;
+    gap: 10px;
+}
+.titlePossibleInterest{
+    color: var(--colorTitle);
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: left;
+}
+.titleBookPossibleInterest{
+    color: #05385f;
+}
+.paragraphPossibleInterest{
+
+    font-size: 0.7rem;
+}
+.imgBtnPossibleInterest{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.BtnPossibleInterest{
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--colorTitle);
+    color: var(--textColor);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+.stars{
+    display: flex;
+}
+.iconeStars{
+    content: url('https://api.iconify.design/material-symbols/star-rate.svg?color=%23eb9b00&width=15&height=15');
+}
+.topicsRecentely{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+    background-color: #002F52;
+}
+.btnTopicsRecentely{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+    align-items: center;
+    justify-content: center;
+}
+.titleTopicsRecentely{
+    color: var(--textColor);
+  
+}
+.topics{
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--colorTitle);
+    color: var(--textColor);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 10px;
+    gap: 10px;
+}
+.register{
+    background-color: var(--textColor);
+    color: #002F52;
+    padding: 2.5em 2em;
+    font-family: var(--fontprimary);
+
+}
+.registerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.titleRegister{
+    font-size: 18px;
+    font-weight: 700;
+}
+.paragraphRegister{
+    font-weight: 400;
+
+}
+.boxRegister{
+    border: 1px solid  #002F52;
+    border-radius: 24px;
+    background-color: transparent;
+   
+    padding: 1em;
+    width: 100%;
+}
+.boxRegister::placeholder{
+    font-family: var(--fontprimary);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 3em;
+    color: #002F52;
+    background: url('https://api.iconify.design/mdi/email-outline.svg?color=%23002f52&width=24&height=24') no-repeat center center / contain;
+    background-position: 1em;
+
+}
+.iconeHeart2{
+    content: url('https://api.iconify.design/mdi/cards-heart-outline.svg?color=black&width=35&height=32');
+}
+hr{
+    margin: 0;
+    
+}
+.footer{
+    background-color:var(--colorBottom);
+    padding: 15px;
+    
+}
+    
+.titleFooter{
+    font-family: var(--fontprimary);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.listFooter{
+    display: none;
+}
+.swiper{
+    width: 50%;
+}

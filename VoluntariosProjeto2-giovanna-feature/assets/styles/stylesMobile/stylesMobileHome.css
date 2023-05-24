@@ -1,0 +1,12 @@
+.iconeMenu{
+    content: url('https://api.iconify.design/mingcute/menu-fill.svg?color=black&width=30&height=30');
+}
+.iconeFace{
+    content: url('https://api.iconify.design/ic/baseline-facebook.svg?color=black&width=40&height=40');
+}
+.iconeInsta{
+    content: url('https://api.iconify.design/mdi/instagram.svg?color=black&width=40&height=40');
+}
+.iconeTwitter{
+    content: url('https://api.iconify.design/mdi/twitter.svg?color=black&width=40&height=40');
+}

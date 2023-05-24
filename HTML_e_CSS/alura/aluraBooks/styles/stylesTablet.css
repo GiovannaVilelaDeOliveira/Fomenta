@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+@media  (min-width: 700px) {
+    .headerLogo{
+        display: flex;
+        align-items:end;
+        gap: 10px;
+    }
+    
+    .imgLogo{
+        width: 35px;
+        height:35px;
+    }
+    .headerTitle{
+        display: block;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .headerTitleBold{
+        font-weight: 700;
+    }
+
+    .iconeMenu{
+        display: none;
+    }
+    .iconeHeart{
+        display: none;
+    }
+    .iconeBag{
+        content: url('https://api.iconify.design/material-symbols/shopping-bag-outline.svg?color=black&width=40&height=45');
+    }
+    .iconeUser{
+        content: url('https://api.iconify.design/mdi/user-circle-outline.svg?color=black&width=42&height=42');
+    
+    }
+    .iconeBag:hover{
+        content: url('https://api.iconify.design/material-symbols/shopping-bag-outline.svg?color=blue&width=40&height=45');
+    }
+    .iconeUser:hover{
+        content: url('https://api.iconify.design/mdi/user-circle-outline.svg?color=blue&width=42&height=42');
+    
+    }
+    .headerMenu{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .headerTable{
+        display:block;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        gap: 25px;
+        font-family: var(--fontprimary);
+        text-transform: uppercase;
+        
+    }
+    .optionItem:hover{
+        color: blue;
+    }
+    
+    .listMenu{
+        
+        top: 100%;
+        width: 20vw;/* 60vw 60% da tela*/
+    }
+    
+    .itemListMenu{
+        
+        padding: 1rem;
+        background-color: #FFFF;
+    }
+    .linkListMenu{
+        color: #0960a3;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: var(--fontprimary);
+        display: flex;
+        font-size: 15px;
+    
+    
+    }
+
+    .search{
+        padding: 6em 5em;
+    }
+    .searchContent{
+        gap: 25px;
+    }
+    .titleSearch{
+        font-size: 36px;
+    }
+    .paragraphSearch{
+        font-size: 16px;
+    }
+    .boxSearch{
+        padding: 1em;
+        width: 50%;
+    }
+    
+    .boxSearch::placeholder{
+        text-align:left;
+        padding-left: 3em;
+        background: url("../img/Vector.png") no-repeat;  
+        background-position: 1em;
+    }
+
+    .titleLastReleases{
+        font-size: 26px;
+    }
+    .swiper{
+        width: 70%;
+    }
+
+    .possibleInterestContent{
+        width: 50%;
+        margin: 2em auto;
+    }
+
+    .swiper-pagination{
+        margin: 52% 0%;
+    }
+
+    .topicsRecentely{
+        font-size: 30px;
+        
+        gap: 30px;
+        
+        padding: 50px 30px;
+        
+    }
+    .btnTopicsRecentely{
+        gap: 40px 20px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .topics{
+        padding: 15px 15px;
+    
+    }
+
+
+
+
+
+    .register{
+        
+        padding: 6em 5em;       
+    
+    }
+    .registerContent{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+    .titleRegister{
+        font-size: 24px;
+    }
+    .paragraphRegister{
+        font-size: 16px;
+    
+    }
+    .boxRegister{
+        
+        width: 60%;
+    }
+    .footerContet{
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+
+    }
+    .listFooter{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-family: var(--fontprimary);
+        
+    }
+    .titleListFooter{
+        color: #858585;
+    }
+    .itemListFooter{
+        align-items: center;
+        display: flex;
+        gap: 10px;
+    }
+    .linkFooter{
+        color: #474646;
+        text-decoration: none;
+    }
+    .titleFooter{
+      
+        font-size: 30px;
+        
+    }
+}
